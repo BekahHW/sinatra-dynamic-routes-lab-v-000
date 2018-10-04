@@ -36,7 +36,7 @@ class App < Sinatra::Base
     else op == "divide"
       answer = num1 / num2
     end
-  answer
+  answer.to_s
   end
   
   
